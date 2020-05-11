@@ -1,0 +1,38 @@
+.Iam{
+    background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+    //height: 10vh;
+    background-color: lighten($color: #282c34, $amount: 10);
+    color: white;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lighten($color: #282c34, $amount: 10);
+        display: flex;
+        justify-content: space-around   ;
+      }
+      
+      li {
+        float: left;
+        width: 100%;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111111;
+       
+      }
+}
