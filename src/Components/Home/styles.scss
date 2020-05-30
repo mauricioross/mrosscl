@@ -1,0 +1,33 @@
+.container-home{
+  background-color: #282c34;
+    height: 100vh;
+   width: 100%;
+   z-index: -1;
+}
+
+.show{
+  animation: showmenu 1s normal both;
+}
+.hide{
+  animation: hidemenu 1s normal both;
+}
+
+
+@keyframes hidemenu{
+   0%{
+    padding-left: 15rem;
+   }
+  
+   100%{
+    padding-left: 5rem;
+   }
+}
+@keyframes showmenu{
+   0%{
+    padding-left: 5rem;
+   }
+  
+   100%{
+    padding-left: 15rem;
+   }
+}

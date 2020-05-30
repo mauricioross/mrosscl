@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
-.App {
-  text-align: center;
-  background-color: #282c34;
-  width: 100vw;
-  height: 100vh;
+//@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap');
+@import "~bootstrap/scss/bootstrap";
+// .App {
+//   text-align: center;
+//   background-color: #282c34;
+//   width: 100vw;
+//   height: 100vh;
+//   margin: 1rem;
+//   padding: 0;
+//   // display: flex ;
+//   // justify-content: center;
+//   // align-items: center;
+//   font-family: 'Orbitron', sans-serif;
+// }
+.container-body{
   margin: 0;
-  padding: 0;
-  display: flex ;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Orbitron', sans-serif;
 }
 .Container{
   display: flex ;
@@ -157,4 +162,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.hidemenu{
+  animation: hide 2s normal both;
+}
+.showmenu{
+   animation: show 2s normal both;
+
+}
+@keyframes hide{
+   0%{
+       width: 17rem;
+   }
+  
+   100%{
+       width: 5rem;
+   }
+}
+@keyframes show{
+   0%{
+        width: 5rem;
+   }
+  
+   100%{
+       width: 17rem;
+   }
 }
