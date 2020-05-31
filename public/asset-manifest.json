@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mrosscl/static/css/main.79f8e012.chunk.css",
+    "main.js": "/mrosscl/static/js/main.9766f966.chunk.js",
+    "main.js.map": "/mrosscl/static/js/main.9766f966.chunk.js.map",
+    "runtime-main.js": "/mrosscl/static/js/runtime-main.f81f7293.js",
+    "runtime-main.js.map": "/mrosscl/static/js/runtime-main.f81f7293.js.map",
+    "static/js/2.9fd5facd.chunk.js": "/mrosscl/static/js/2.9fd5facd.chunk.js",
+    "static/js/2.9fd5facd.chunk.js.map": "/mrosscl/static/js/2.9fd5facd.chunk.js.map",
+    "index.html": "/mrosscl/index.html",
+    "precache-manifest.f0597168f6420e2365dc76b3a4f119e8.js": "/mrosscl/precache-manifest.f0597168f6420e2365dc76b3a4f119e8.js",
+    "service-worker.js": "/mrosscl/service-worker.js",
+    "static/css/main.79f8e012.chunk.css.map": "/mrosscl/static/css/main.79f8e012.chunk.css.map",
+    "static/js/2.9fd5facd.chunk.js.LICENSE.txt": "/mrosscl/static/js/2.9fd5facd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mrosscl/static/media/logo.ee7cd8ed.svg",
+    "static/media/index.scss": "/mrosscl/static/media/photoperfil.2584216d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f81f7293.js",
+    "static/js/2.9fd5facd.chunk.js",
+    "static/css/main.79f8e012.chunk.css",
+    "static/js/main.9766f966.chunk.js"
+  ]
+}

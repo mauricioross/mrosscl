@@ -6,17 +6,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Iam from './Components/iam/Iam';
-import 
-Home from './Components/Home';
 import Index from './Components/index/Index';
-import Header from './Components/Header/index';
-import SideMenu from './Components/SideMenu/index';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React, { Component } from 'react'
-
+import {Helmet} from "react-helmet";
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +27,10 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+         <Helmet>
+                <meta charSet="utf-8" />
+                <title>Mauricio Ross Arevalo</title>
+            </Helmet>
         <Switch>
           <Route exact path="/">
             <Index/>
